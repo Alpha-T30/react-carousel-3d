@@ -185,12 +185,12 @@ export function Carousel(props) {
                       {slides.map((slider, index) => (
                                 <div className={slider.class} key={index}>
                                     <div className={sliderClass('left')} onClick={slideLeft}>
-                                        <div>
+                                        <div className="leftDiv">
                                             <i className="fa fa-arrow-left"></i>
                                         </div>
                                     </div>
                                     <div className={sliderClass('right')} onClick={slideRight}>
-                                        <div >
+                                        <div className="rightDiv" >
                                             <i className="fa fa-arrow-right"></i>
                                         </div>
                                     </div>
